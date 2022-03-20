@@ -19,7 +19,8 @@
 # The fixed index-url path
 index-url = https://pagaya_user:********************@pypi.pagaya-services.com/
 ```
-- If you don't get that, you need to create a new pip config file: `mkdir ~/.config/pip/ && mv ./pip.conf ~/.config/pip/pip.conf`. If you're getting the desired output, move to the next section.
+- If you're getting the desired output, move to the next section. If you don't get that, you need to create a new pip config file: `mkdir ~/.config/pip`.
+- After you created the folder above, download [this file](https://drive.google.com/uc?export=download&id=1tSzGRXNN8jKDE4gDY-n-RVVyQWd_ccx_) and place it in the newly created folder: `mv ~/Downloads/pip.conf ~/.config/pip/pip.conf`
 - Create a new python environment: `python3 -m venv venv && source venv/bin/activate`
 - Install the package by running: `pip install pglearn-devkit`
 
