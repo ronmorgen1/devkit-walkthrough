@@ -17,7 +17,7 @@
 [global]
 
 # The fixed index-url path
-index-url = https://pagaya_user:4A0H5wIIQFikt5GRw8XsBsdKpOJdzE5fdN2lf4T8PlSXvL3uut5jB3HMN3glyoku@pypi.pagaya-services.com/
+index-url = https://pagaya_user:*******************************************************************************@pypi.pagaya-services.com/
 ```
 - If you don't get that, you need to create a new pip config file: `mkdir ~/.config/pip/ && mv ./pip.conf ~/.config/pip/pip.conf`. If you're getting the desired output, move to the next section.
 - Create a new python environment: `python3 -m venv venv && source venv/bin/activate`
